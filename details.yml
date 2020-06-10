@@ -5,9 +5,8 @@ city: Mexico City
 from:
     - kellyjesse881@gmail.com
 to:
-    - Jesse Kelly
-    - Alaska 3
-    - Colonia de Valle
+    - Glitzi
+    - glitzi.com.mx
     - Mexico City, Mexico
 service:
     - description: The first service provided
@@ -26,15 +25,16 @@ service:
       price: 65.00
 
 closingnote: |
-    Please transfer the due amount to the following bank account within the next 14 days:
+    Please transfer the due amount to the following bank account:
 
-      Mustermann GmbH
-      Kreditinstitut: Deutsche Postbank AG
-      IBAN: DE18 3601 0043 9999 9999 99
-      BIC: PBNKDEFF
+      Jesse Kelly
 
+      Banorte
 
-      Always a pleasure,
+      CLABE: 0727 9001 0768 3415 53
+
+signoff: |
+    Always a pleasure,
 
 # Invoice settings
 currency: USD
