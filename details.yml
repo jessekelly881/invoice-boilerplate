@@ -6,7 +6,7 @@ from:
     - kellyjesse881@gmail.com
 to:
     - Glitzi
-    - Glitzi.com.mx
+    - glitzi.com.mx
     - Mexico City, Mexico
 
 service:
@@ -54,9 +54,9 @@ currency: USD
 lang: english
 
 # Typography and layout
-seriffont: Helvetica Neue
-sansfont: Helvetica Neue
+seriffont: Libre Baskerville
+sansfont: Libre Baskerville
 fontsize: 12pt
-geometry: a4paper, left=30mm, right=30mm, top=30mm, bottom=15mm
+geometry: a4paper, left=30mm, right=30mm, top=20mm, bottom=15mm
 # letterhead: true # To include personalized letterheads
 ---
