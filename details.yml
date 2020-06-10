@@ -8,6 +8,10 @@ to:
     - Glitzi
     - glitzi.com.mx
     - Mexico City, Mexico
+
+prenote: |
+    At the time of writing the USD/MXN exchange rate is: 1 USD = 21.73MXN.
+
 service:
     - description: The first service provided
       hours: 10
