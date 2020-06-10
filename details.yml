@@ -6,27 +6,35 @@ from:
     - kellyjesse881@gmail.com
 to:
     - Glitzi
-    - glitzi.com.mx
+    - Glitzi.com.mx
     - Mexico City, Mexico
 
-prenote: |
-    At the time of writing the USD/MXN exchange rate is: 1 USD = 21.73MXN.
-
 service:
-    - description: The first service provided
-      hours: 10
-      price: 320.00
+    - description: Planning and project related meetings
+      hours: 4
+      price: 60.00
       details:
-    - description: And another one, with a list of details
-      hours: 3
-      price: 245.00
+          - Video calls on May 26, Jun 02, Jun 05
+
+    - description: Backend work
+      hours: 14.75
+      price: 221.25
       details:
-          - Some more detailed explanation
-          - of the service provided
-          - Looking good
-    - description: The last service provided
-      hours: 5.5
-      price: 65.00
+          - Style Email templates
+          - Allauth, django rest auth setup
+          - Sendgrid setup
+          - Database model design for custom user obj, doctor profile, patient profile
+
+    - description: Frontend work
+      hours: 20
+      price: 300
+      details:
+          - Setup netlify to serve frontend application
+          - React project setup
+          - Component creation and routing setup.
+
+prenote: |
+    Agreed rate per hour: 15 USD
 
 closingnote: |
     Please transfer the due amount to the following bank account:
@@ -46,8 +54,8 @@ currency: USD
 lang: english
 
 # Typography and layout
-seriffont: inconsolata
-sansfont: inconsolata
+seriffont: Helvetica Neue
+sansfont: Helvetica Neue
 fontsize: 12pt
 geometry: a4paper, left=30mm, right=30mm, top=30mm, bottom=15mm
 # letterhead: true # To include personalized letterheads

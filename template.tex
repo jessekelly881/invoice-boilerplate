@@ -105,7 +105,7 @@ $for(to)$
 $to$\\
 $endfor$
 
-\vspace{6em}
+\vspace{3em}
 
 \begin{flushright}
   \small
@@ -124,19 +124,15 @@ $prenote$
 \STautoround*{2} % Get spreadtab to always display the decimal part
 $if(commasep)$\STsetdecimalsep{,}$endif$ % Use comma as decimal separator
 
-\begin{spreadtab}{{tabular}[t t t]{lp{10.5cm}r r}}
-  @ \noalign{\vskip 2mm} \textbf{Pos.} & @ \textbf{Description} & @ \textbf{Hours} & @ \textbf{$currency$} \\ \hline
-      $for(service)$ @ \noalign{\vskip 2mm} \refstepcounter{pos} \thepos
+\begin{spreadtab}{{tabular}[t t]{lp{10.5cm}r r}}
+  & @ \textbf{Description} & @ \textbf{Hours} & @ \textbf{$currency$} \\ \hline
+      $for(service)$ @ \noalign{\vskip 5mm}
         & @ $service.description$
         $if(service.details)$\newline \begin{itemize}
           $for(service.details)$\scriptsize \item $service.details$
           $endfor$ \end{itemize}
-          $endif$ & $service.hours$ & $service.price$\\$endfor$ \noalign{\vskip 2mm} \hline
-  $if(VAT)$
-    @ & @ \multicolumn{1}{r}{Subtotal:}                & :={sum(c1:[0,-1])} \\ \hhline{~~-}
-    @ & @ \multicolumn{1}{r}{VAT $VAT$\%:}               & $VAT$/100*[0,-1] \\ \hhline{~~-}
-  $endif$
-  @ & @ \multicolumn{2}{r}{\textbf{Total:}}   & \textbf{:={$if(VAT)$[0,-1]+[0,-2]$else$sum(c1:[0,-1])$endif$}} \\
+          $endif$ & $service.hours$ & $service.price$\\$endfor$ \noalign{\vskip 5mm} \hline
+  @ & @ \multicolumn{2}{r}{\textbf{Total:}}   & \textbf{:={sum(d1:d4)}} \\
 \end{spreadtab}
 
 
@@ -146,7 +142,7 @@ $if(commasep)$\STsetdecimalsep{,}$endif$ % Use comma as decimal separator
 \small
 $closingnote$
 
-\vspace{25mm}
+\vspace{15mm}
 
 $signoff$
 
