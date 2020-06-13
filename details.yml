@@ -1,5 +1,5 @@
 ---
-invoice-nr: MX20200610
+invoice-nr: MX20200612
 author: Jesse Kelly
 city: Mexico City
 from:
@@ -11,10 +11,10 @@ to:
 
 service:
     - description: Planning and project related meetings
-      hours: 4
-      price: 60.00
+      hours: 5
+      price: 75.00
       details:
-          - Video calls on May 26, Jun 02, Jun 05
+          - Video calls on May 26, Jun 02, Jun 05, Jun 10
 
     - description: Backend work
       hours: 14.75
@@ -26,8 +26,8 @@ service:
           - Database model design for custom user obj, doctor profile, patient profile
 
     - description: Frontend work
-      hours: 20
-      price: 300
+      hours: 28.5
+      price: 427.5
       details:
           - Setup netlify to serve frontend application
           - React project setup
@@ -39,11 +39,9 @@ prenote: |
 closingnote: |
     Please transfer the due amount to the following bank account:
 
-      Jesse Kelly
-
       Banorte
 
-      CLABE: 0727 9001 0768 3415 53
+      CLABE: 0727 9001 0768 4315 53
 
 signoff: |
     Always a pleasure,

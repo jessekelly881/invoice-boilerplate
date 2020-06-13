@@ -109,7 +109,7 @@ $endfor$
 
 \begin{flushright}
   \small
-  $city$, \today
+  $city$,\  \  \today
 \end{flushright}
 
 \vspace{1em}
@@ -135,7 +135,7 @@ $if(commasep)$\STsetdecimalsep{,}$endif$ % Use comma as decimal separator
             \vskip 1mm
           $endfor$ \end{itemize}
           $endif$ & $service.hours$  & $service.price$\\$endfor$ \noalign{\vskip 3mm} \hline
-  @ & @ \multicolumn{2}{r}{\textbf{Total:}}   & \textbf{:={sum(d1:d4)}} \\
+  @ & @ \multicolumn{2}{r}{\textbf{Total:} \ }   & \textbf{:={sum(d1:d4)}} \\
 \end{spreadtab}
 
 
