@@ -51,7 +51,8 @@ currency: USD
 # commasep: true
 lang: english
 
-# Typography and layout
+# Typography, style and layout
+color: 31, 31, 31
 seriffont: Libre Baskerville
 sansfont: Libre Baskerville
 fontsize: 12pt

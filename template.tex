@@ -20,11 +20,12 @@ $if(letterhead)$
   \ULCornerWallPaper{1}{letterhead.pdf}
 $endif$
 
-% TYPOGRAPHY
+% TYPOGRAPHY & COLOR
 %--------------------------------
 \usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xltxtra}
+\usepackage{xcolor}
 
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
@@ -91,7 +92,9 @@ $endif$
 
 % DOCUMENT
 %--------------------------------
+\definecolor{primary}{RGB}{$color$}
 \begin{document}
+\color{primary}
 \small
 \textsc{\textbf{$author$}}
 $for(from)$
