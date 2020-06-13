@@ -52,7 +52,7 @@ currency: USD
 lang: english
 
 # Typography, style and layout
-color: 31, 31, 31
+color: 0, 0, 51
 seriffont: Libre Baskerville
 sansfont: Libre Baskerville
 fontsize: 12pt
