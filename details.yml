@@ -11,27 +11,27 @@ to:
 
 service:
     - description: Planning and project related meetings
-      hours: 5
-      price: 75.00
+      hours: 2
+      price: 30.00
       details:
-          - Video calls on May 26, Jun 02, Jun 05, Jun 10
+          - Video call on Jun 21
 
     - description: Backend work
-      hours: 14.75
-      price: 221.25
+      hours: 2.75
+      price: 41.25
       details:
-          - Style Email templates
-          - Allauth, django rest auth setup
-          - Sendgrid setup
-          - Database model design for custom user obj, doctor profile, patient profile
+          - Fixed auth config
+          - Work on profile creation and token passing
 
     - description: Frontend work
-      hours: 28.5
-      price: 427.5
+      hours: 38.25
+      price: 573.75
       details:
-          - Setup netlify to serve frontend application
-          - React project setup
-          - Component creation and routing setup.
+          - Setup redux, configured api to work with backend
+          - Added working login and signup pages
+          - Added profile switcher page with profile data from db and profile creation
+          - Created doctor dashboard plus significant number of components
+          - Setup PWA
 
 prenote: |
     Agreed rate per hour: 15 USD
